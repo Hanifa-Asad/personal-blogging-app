@@ -1,23 +1,23 @@
 let username = "";
 
-// const firebaseConfig = {
-//     apiKey: "AIzaSyCmKb5TcZ1TLrH3NbC3ADHHgQG6u9TXwVc",
-//     authDomain: "practice-4cdb5.firebaseapp.com",
-//     projectId: "practice-4cdb5",
-//     storageBucket: "practice-4cdb5.appspot.com",
-//     messagingSenderId: "566308702301",
-//     appId: "1:566308702301:web:f8ed2b146cc7e5faffe5b4",
-//     measurementId: "G-W7ERKEX4FB",
-// };
 const firebaseConfig = {
-    apiKey: "AIzaSyC-mGYD15Kj6F2PKklkhBVpI_BpdYZ95fo",
-    authDomain: "blog-app-68ac9.firebaseapp.com",
-    projectId: "blog-app-68ac9",
-    storageBucket: "blog-app-68ac9.firebasestorage.app",
-    messagingSenderId: "902750854561",
-    appId: "1:902750854561:web:69b4b3ab2c2bf062f6bfe0",
-    measurementId: "G-K5MQ172QPE"
-  };
+    apiKey: "AIzaSyCmKb5TcZ1TLrH3NbC3ADHHgQG6u9TXwVc",
+    authDomain: "practice-4cdb5.firebaseapp.com",
+    projectId: "practice-4cdb5",
+    storageBucket: "practice-4cdb5.appspot.com",
+    messagingSenderId: "566308702301",
+    appId: "1:566308702301:web:f8ed2b146cc7e5faffe5b4",
+    measurementId: "G-W7ERKEX4FB",
+};
+// const firebaseConfig = {
+//     apiKey: "AIzaSyC-mGYD15Kj6F2PKklkhBVpI_BpdYZ95fo",
+//     authDomain: "blog-app-68ac9.firebaseapp.com",
+//     projectId: "blog-app-68ac9",
+//     storageBucket: "blog-app-68ac9.firebasestorage.app",
+//     messagingSenderId: "902750854561",
+//     appId: "1:902750854561:web:69b4b3ab2c2bf062f6bfe0",
+//     measurementId: "G-K5MQ172QPE"
+//   };
 firebase.initializeApp(firebaseConfig);
 var auth = firebase.auth();
 var db = firebase.firestore();
