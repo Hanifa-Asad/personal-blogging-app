@@ -187,7 +187,7 @@ function editName() {
             }
 
         } else {
-            window.location.href = "./";
+            // window.location.href = "./";
         }
     });
 
@@ -262,6 +262,6 @@ firebase.auth().onAuthStateChanged(function(user) {
 
         // Rest of your code...
     } else {
-        window.location.href = "./index.html"
+        // window.location.href = "./index.html"
     }
 });

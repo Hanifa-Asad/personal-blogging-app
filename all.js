@@ -472,7 +472,7 @@ function logOut() {
         .auth()
         .signOut()
         .then(() => {
-            window.location.href = "./index.html";
+            .location.href = "./index.html";
         })
         .catch((error) => {
             console.log("Sign out error:", error);
