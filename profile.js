@@ -95,7 +95,7 @@ firebase.auth().onAuthStateChanged(function(user) {
         }
 
     } else {
-        window.location.href = "./all.html";
+        window.location.href = "./index.html";
     }
 });
 
@@ -106,7 +106,7 @@ function logOut() {
         .then(() => {
             // console.log("Sign out successful");
             // Redirect to the sign-in page or any other desired destination
-            window.location.href = "./all.html";
+            window.location.href = "./index.html";
         })
         .catch((error) => {
             console.log("Sign out error:", error);
@@ -187,7 +187,7 @@ function editName() {
             }
 
         } else {
-            window.location.href = "./all.html";
+            window.location.href = "./";
         }
     });
 
@@ -262,6 +262,6 @@ firebase.auth().onAuthStateChanged(function(user) {
 
         // Rest of your code...
     } else {
-        window.location.href = "./all.html"
+        window.location.href = "./index.html"
     }
 });

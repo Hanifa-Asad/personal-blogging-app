@@ -14,7 +14,7 @@ firebase.initializeApp(firebaseConfig);
 // logout automatically
 firebase.auth().onAuthStateChanged(function (user) {
     if (user) {
-        window.location.href = "./all.html";
+        window.location.href = "./index.html";
     }
 });
 
